@@ -103,7 +103,8 @@ class WriteFile {
 			size++;
 		} else {
 			write(fdout, buffer, static_cast<size_t>(size));
-			size = 0;
+			buffer[0] = byte;
+			size = 1;
 		}
 	}
 
