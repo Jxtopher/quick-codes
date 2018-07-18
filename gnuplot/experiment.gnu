@@ -14,7 +14,7 @@ set grid back ls 12
 # Définitions du style des lignes
 set style line 1 lc rgb 'black' 	pt 7 ps 1 lt 1 lw 3		# D1
 set style line 2 lc rgb '#dd181f'	pt 5 ps 1 lt 1 lw 3		# Rouge
-set style line 3 lc rgb '#09ad00' 	pt 13 ps 1 lt 1 lw 3 	# Verte
+set style line 3 lc rgb '#09ad00' 	pt 13 ps 1 lt 1 lw 3 		# Verte
 set style line 4 lc rgb '#0060ad'	pt 9 ps 1 lt 1 lw 3		# blue
 
 # Définitions du texte de la légende
