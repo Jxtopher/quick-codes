@@ -5,6 +5,19 @@
 // @Version: 1
 // @Purpose: solve the n-queeen problem with the depth-first search
 //
+// Compilation:
+// g++ xxx.cpp -std=c++0x -Wall -O -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-include-dirs -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-null-sentinel -Wstrict-overflow=5 -Wswitch-default -Wundef -Werror -Wno-unused
+//
+/* Exemple class call Nqueen to solve the problem n-queen:
+using namespace jxtopher;
+
+int main() {
+    unsigned int N = 5;
+    Nqueen solver;
+    solver.nqueen(N);
+    return EXIT_SUCCESS;
+}
+*/
 
 #include <cstdlib>
 #include <iostream>
