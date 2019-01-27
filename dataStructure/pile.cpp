@@ -9,6 +9,8 @@
 
 using namespace std;
 
+namespace jxtopher {
+
 template<class TYPE>
 class Pile {
     public:
@@ -172,10 +174,14 @@ class UnitTest_pile  {
         Pile<unsigned int> *p;
 };
 
+}
+
+/*
+using namespace jxtopher;
 
 int main() {//int argc, char **argv, char **envp) {
     UnitTest_pile unitTest_pile;
     unitTest_pile.run();
 
     return EXIT_SUCCESS;
-}
+}*/
