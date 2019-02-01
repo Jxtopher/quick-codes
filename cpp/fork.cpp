@@ -1,3 +1,10 @@
+//
+// @Author: Jxtopher
+// @Date: 27 Jan 2019
+// @Version: 1 bêta
+// @Purpose: 
+// 
+
 #ifndef LAUNCHERFORK_H
 #define LAUNCHERFORK_H
 
