@@ -70,7 +70,7 @@ protected:
     cout<<"</g>";
   }
 
-  // Dessier les legende des axis
+  // Dessiner les légendes des axis
   void label(string xlabel, string ylabel) {
     cout<<"<g stroke=\"black\" font-family=\"Verdana\" font-size=\"55\">";
     cout<<"<text text-anchor=\"middle\" x=\"700\" y=\"1250\" >"<<xlabel<<"</text>";
