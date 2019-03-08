@@ -1,10 +1,10 @@
-//
-// @Author: *
-// @License: *
-// @Date: *
-// @Version: *
-// @Purpose: Hello world for a simple exemple code
-// 
+//!
+//! \file UnitTest_pile.h
+//! \author *
+//! \version *
+//! \date *
+//! \brief Unit testing
+//!
 
 #ifndef JXTOPHER_UNITTEST_PILE_H
 #define JXTOPHER_UNITTEST_PILE_H
@@ -19,7 +19,9 @@ using namespace std;
 using namespace CppUnit;
 using namespace jxtopher;
 
-
+//!
+//! \class Pile
+//!
 class UnitTest_pile : public CppUnit::TestFixture {
     CPPUNIT_TEST_SUITE(UnitTest_pile);
     CPPUNIT_TEST(test_push);

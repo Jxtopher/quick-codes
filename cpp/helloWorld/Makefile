@@ -37,6 +37,9 @@ unittest : $(SOURCEDIR)/unitTest.cpp
 rununittest:
 	./$(BUILDDIR)/unittest_$(EXEC_NAME)
 
+doxygen:
+	doxygen doxygen.cfg
+
 run:
 	./$(BUILDDIR)/$(EXEC_NAME)
 

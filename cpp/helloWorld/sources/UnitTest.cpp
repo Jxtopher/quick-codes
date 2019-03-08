@@ -1,6 +1,10 @@
-//
-// @Source : http://www.yolinux.com/TUTORIALS/CppUnit.html
-//
+//!
+//! \file UnitTest.cpp
+//! \author *
+//! \version *
+//! \date *
+//! \brief http://www.yolinux.com/TUTORIALS/CppUnit.html
+//!
 
 #include <cppunit/TestCase.h>
 #include <cppunit/TestFixture.h>

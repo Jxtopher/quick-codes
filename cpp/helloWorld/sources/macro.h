@@ -1,10 +1,10 @@
-//
-// @Author: *
-// @License: *
-// @Date: * 
-// @Version: 1
-// @Purpose: Macro
-//
+//!
+//! \file main.h
+//! \author *
+//! \version 1
+//! \date *
+//! \brief Macro
+//!
 
 #ifndef MACRO_H
 #define MACRO_H

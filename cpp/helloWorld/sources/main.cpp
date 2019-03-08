@@ -1,10 +1,10 @@
-//
-// @Author: *
-// @License: *
-// @Date: *
-// @Version: *
-// @Purpose: Hello world for a simple exemple code
-// 
+//!
+//! \file main.h
+//! \author *
+//! \version *
+//! \date *
+//! \brief Hello world for a simple exemple code
+//!
 
 #include <iostream>
 #include <cstdlib>
