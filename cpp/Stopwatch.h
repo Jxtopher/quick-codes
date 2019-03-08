@@ -1,3 +1,6 @@
+#ifndef JXTOPHER_STOPWATCH_H
+#define JXTOPHER_STOPWATCH_H
+
 #include <chrono>
 
 using namespace std;
@@ -20,3 +23,5 @@ public:
     
 };
 }
+
+#endif
