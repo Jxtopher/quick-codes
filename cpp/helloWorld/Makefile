@@ -31,12 +31,14 @@ all : $(SOURCEDIR)/main.cpp
 	
 	$(CC) $(FLAGS) $< -o $(BUILDDIR)/$(EXEC_NAME)
 
+
 unittest : $(SOURCEDIR)/unitTest.cpp
 	$(CC) $(FLAGS) $< -o $(BUILDDIR)/unittest_$(EXEC_NAME) -lcppunit
 
 rununittest:
 	./$(BUILDDIR)/unittest_$(EXEC_NAME)
 
+# https://franckh.developpez.com/tutoriels/outils/doxygen/
 doxygen:
 	doxygen doxygen.cfg
 
