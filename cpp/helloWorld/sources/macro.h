@@ -1,10 +1,10 @@
-//!
-//! \file main.h
-//! \author *
-//! \version 1
-//! \date *
-//! \brief Macro
-//!
+///
+/// \file main.h
+/// \author *
+/// \version 1
+/// \date *
+/// \brief Macro
+///
 
 #ifndef MACRO_H
 #define MACRO_H

@@ -1,12 +1,12 @@
-//!
-//! \file pile.h
-//! \author *
-//! \version *
-//! \date *
-//! \brief Définir une classe Pile avec les fonction push, pop, isEmpty, size
-//!        Mettre en place une gestion dynamique de la mémoire
-//!        Définir les constructeurs de copie et l'opérateur égale
-//!
+///
+/// \file pile.h
+/// \author *
+/// \version *
+/// \date *
+/// \brief Définir une classe Pile avec les fonction push, pop, isEmpty, size
+///        Mettre en place une gestion dynamique de la mémoire
+///        Définir les constructeurs de copie et l'opérateur égale
+///
 
 #ifndef JXTOPHER_PILE_H
 #define JXTOPHER_PILE_H
@@ -22,10 +22,10 @@ using namespace std;
 namespace jxtopher {
 
 template<class TYPE>
-//!
-//! \class Pile
-//! \brief Définition de la structure pile
-//!
+///
+/// \class Pile
+/// \brief Définition de la structure pile
+///
 class Pile {
     public:
     Pile() {
@@ -36,7 +36,7 @@ class Pile {
     }
 
     virtual ~Pile() {
-        delete data;
+        delete[] data;
     }
 
     Pile(Pile const &p) {
@@ -72,15 +72,15 @@ class Pile {
         return true;
     }
 
-    /*!
-     *  \brief Comparer deux piles
-     *
-     *  Méthode qui permet de comparer deux piles
-     *
-     *  \param p : une pile
-     *  \return true si la pile A est differant a la pile B,
-     *  false sinon
-     */
+    ///
+    /// \brief Comparer deux piles
+    ///
+    ///  Méthode qui permet de comparer deux piles
+    ///
+    ///  \param p : une pile
+    ///  \return true si la pile A est differant a la pile B,
+    ///  false sinon
+    ///
     bool operator!=(const Pile &p) const {
         return not(operator==(p));
     }
@@ -122,10 +122,10 @@ class Pile {
     }
 
     protected:
-    unsigned int nbElementMax;  //!< Maximum number of elements in the stack 
-    unsigned int nbElement;     //!< Number of elements in the stack 
-    unsigned int delta;         //!< Size of the stack enlargement
-    TYPE *data;                 //!< stack data
+    unsigned int nbElementMax;  ///< Maximum number of elements in the stack 
+    unsigned int nbElement;     ///< Number of elements in the stack 
+    unsigned int delta;         ///< Size of the stack enlargement
+    TYPE *data;                 ///< stack data
 };
 
 #endif

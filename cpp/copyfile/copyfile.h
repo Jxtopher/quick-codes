@@ -1,11 +1,11 @@
-//!
-//! \file copyfile.cpp
-//! \author Jxtopher
-//! \version 1
-//! \date 2017
-//! \copyright *
-//! \brief Copy a file
-//!
+///
+/// \file copyfile.cpp
+/// \author Jxtopher
+/// \version 1
+/// \date 2017
+/// \copyright *
+/// \brief Copy a file
+///
 
 #ifndef JXTOPHER_COPYFILE_H
 #define JXTOPHER_COPYFILE_H

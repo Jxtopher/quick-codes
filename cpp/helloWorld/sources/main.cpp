@@ -1,15 +1,15 @@
-//!
-//! \file main.h
-//! \author *
-//! \version *
-//! \copyright *
-//! \date *
-//! \brief Hello world for a simple exemple code
-//! \details *
-//!
-//! @compilation: *
-//! @Execution: *
-//!
+///
+/// \file main.h
+/// \author *
+/// \version *
+/// \copyright *
+/// \date *
+/// \brief Hello world for a simple exemple code
+/// \details *
+///
+/// @compilation: *
+/// @Execution: *
+///
 
 #include <iostream>
 #include <cstdlib>

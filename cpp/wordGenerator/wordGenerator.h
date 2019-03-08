@@ -1,10 +1,10 @@
-//!
-//! \file wordGenerator.h
-//! \author Jxtopher
-//! \version 1
-//! \date 2019
-//! \brief Generating a list of words from a set of characters.
-//!
+///
+/// \file wordGenerator.h
+/// \author Jxtopher
+/// \version 1
+/// \date 2019
+/// \brief Generating a list of words from a set of characters.
+///
 
 #ifndef JXTOPHER_WORDGENERATOR_H
 #define JXTOPHER_WORDGENERATOR_H
