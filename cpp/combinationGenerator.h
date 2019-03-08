@@ -1,8 +1,10 @@
-//
-// @Author: Jxtopher
-// @Date: 2019
-// @Version: 1
-//
+//!
+//! \file combinationGenerator.h
+//! \author Jxtopher
+//! \version 1
+//! \date 2019
+//! \brief *
+//!
 
 #ifndef JXTOPHER_COMBINATIONGENERATOR_H
 #define JXTOPHER_COMBINATIONGENERATOR_H

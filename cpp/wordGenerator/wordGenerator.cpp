@@ -1,9 +1,11 @@
-//
-// @Author: Jxtopher
-// @License: GNU General Public License v3.0
-// @Date: 2017
-// @Version: 1
-// 
+//!
+//! \file wordGenerator.cpp
+//! \author Jxtopher
+//! \version 1
+//! \date 2017
+//! \copyright GNU General Public License v3.0
+//! \brief *
+//!
 
 #include "wordGenerator.h"
 

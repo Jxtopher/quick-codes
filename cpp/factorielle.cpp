@@ -1,10 +1,11 @@
-//
-// @Author: Jxtopher
-// @Date: 2018
-// @Version: 1
-// @Purpose: factorelle
-// @description: https://oeis.org/A000142
-//
+//!
+//! \file factorielle.cpp
+//! \author Jxtopher
+//! \version 1
+//! \date 2018
+//! \brief Factorial
+//! 	   https://oeis.org/A000142
+//!
 
 #include <iostream>
 

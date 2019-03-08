@@ -2,8 +2,10 @@
 //! \file main.h
 //! \author *
 //! \version *
+//! \copyright *
 //! \date *
 //! \brief Hello world for a simple exemple code
+//! \details *
 //!
 
 #include <iostream>
@@ -41,4 +43,3 @@ int main() {
 	DEBUG_TRACE("Stop program")
 	return EXIT_SUCCESS;
 }
-

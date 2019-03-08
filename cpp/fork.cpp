@@ -1,9 +1,10 @@
-//
-// @Author: Jxtopher
-// @Date: 27 Jan 2019
-// @Version: 1 bêta
-// @Purpose: 
-// 
+//!
+//! \file fork.cpp
+//! \author Jxtopher
+//! \version 1 bêta
+//! \date 27 Jan 2019
+//! \brief *
+//!
 
 #ifndef LAUNCHERFORK_H
 #define LAUNCHERFORK_H
