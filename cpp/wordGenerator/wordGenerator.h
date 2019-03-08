@@ -5,6 +5,9 @@
 // @Purpose: Generating a list of words from a set of characters.
 // 
 
+#ifndef JXTOPHER_WORDGENERATOR_H
+#define JXTOPHER_WORDGENERATOR_H
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstdbool>
@@ -86,4 +89,6 @@ class WordGenerator {
 };
 
 }
+
+#endif
 
