@@ -4,6 +4,9 @@
 // @Version: 1
 //
 
+#ifndef JXTOPHER_COMBINATIONGENERATOR_H
+#define JXTOPHER_COMBINATIONGENERATOR_H
+
 #include <iostream>
 
 using namespace std;
@@ -58,3 +61,5 @@ class CombinationGenerator {
 };
 
 } // namespace jxtopher
+
+#endif
