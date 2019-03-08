@@ -3,7 +3,7 @@
 //! \author *
 //! \version *
 //! \date *
-//! \brief Définir un class Pile avec les fonction push, pop, isEmpty, size
+//! \brief Définir une classe Pile avec les fonction push, pop, isEmpty, size
 //!        Mettre en place une gestion dynamique de la mémoire
 //!        Définir les constructeurs de copie et l'opérateur égale
 //!
