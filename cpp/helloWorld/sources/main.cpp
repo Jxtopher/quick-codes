@@ -7,6 +7,9 @@
 //! \brief Hello world for a simple exemple code
 //! \details *
 //!
+//! @compilation: *
+//! @Execution: *
+//!
 
 #include <iostream>
 #include <cstdlib>
