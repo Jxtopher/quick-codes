@@ -7,8 +7,8 @@
 /// \brief Hello world for a simple exemple code
 /// \details *
 ///
-/// @compilation: *
-/// @Execution: *
+/// @compilation *
+/// @execution *
 ///
 
 #include <iostream>

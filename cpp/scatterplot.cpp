@@ -1,10 +1,11 @@
-//
-// @Author: Jxtopher
-// @License: Apache License 2.0
-// @Date: 2018-06-25
-// @Version: v1
-// @Purpose: scatterPlot data in svg
-//
+///
+/// \file main.h
+/// \author Jxtopher
+/// \copyright Apache License 2.0
+/// \version 1
+/// \date 2018-06-25
+/// \brief scatterPlot data in svg
+///
 
 #include <iostream>
 
