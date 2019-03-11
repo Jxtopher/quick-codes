@@ -77,9 +77,9 @@ class Pile {
     ///
     ///  Méthode qui permet de comparer deux piles
     ///
-    ///  \param p : une pile
-    ///  \return true si la pile A est differant a la pile B,
-    ///  false sinon
+    /// \param p : une pile
+    /// \return true si la pile A est differant a la pile B,
+    /// false sinon
     ///
     bool operator!=(const Pile &p) const {
         return not(operator==(p));
