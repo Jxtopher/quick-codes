@@ -187,7 +187,7 @@ int main() {
     // Crée un graphe g
     Graph g;
 
-    // Crée un instance de graphe
+    // Crée une instance de graphe
     createInstanceGraph(g);
 
     // Affiche le graphe
