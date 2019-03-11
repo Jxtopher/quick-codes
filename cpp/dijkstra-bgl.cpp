@@ -194,7 +194,7 @@ int main() {
     cout<<"[+] liste d'adjacence :"<<endl;
     print_graph(g);
 
-    // Appel l'algo dijkstra
+    // Appel de l'algo dijkstra
     list<unsigned int> r = dijkstra(g);
 
     // Affiche le plus court chemin
