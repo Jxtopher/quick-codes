@@ -3,7 +3,8 @@
 # Python 3.7
 
 #
-# @Author: *
+# @Author: Jxtopher
+# @License: CC-BY-NC-SA
 # @Date: 2018
 # @Version: v2
 # @Purpose: *
