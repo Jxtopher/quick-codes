@@ -19,7 +19,8 @@
         mov ecx, helloMsg     ; Adresse de la chaîne a afficher
         mov edx, helloSize    ; Taille de la chaîne
         int 80h               ; Execution de l'appel système
+   
                               ; Sortie du programme
         mov eax,1             ; Appel système "exit"
         mov ebx,0             ; Code de retour
-        int 80h
+        int 80h               ; Execution de l'appel système
