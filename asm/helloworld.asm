@@ -1,11 +1,11 @@
 ;
-; \author Jxtopher
 ; \version 1
 ; \date 2019-05
 ; \brief Hello world for a simple exemple code
 ;
-; @compilation *
-; @execution *
+; @compilation nasm -felf64 helloworld.asm
+;              ld helloworld.o -o helloworld
+; @execution ./helloworld
 ;
 
  section .data
