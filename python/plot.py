@@ -184,8 +184,8 @@ class histogram(Plot):
 		# a		: array or sequence of (n,) arrays
 		# normed	: normalized to form a probability density,
 		# bins		: integer or array_like, optional
-		def auto(self, a, label = [], outfile = "output.pdf", xlabel = "", ylabel = "",  title = "", legend="inside", normed=False, bins = 10):
-			plt.hist(a, label=label, bins=bins, normed=normed)#, bins=[0, 1, 2, 3])
+		def auto(self, a, label = [], outfile = "output.pdf", xlabel = "", ylabel = "",  title = "", legend="inside", density=False, bins = 10):
+			plt.hist(a, label=label, bins=bins, density=density)#, bins=[0, 1, 2, 3])
 			self.legend(xlabel, ylabel, title)
 			self.tofile(outfile)
 			#plt.savefig(outfile, bbox_inches='tight')
