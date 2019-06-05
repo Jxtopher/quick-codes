@@ -186,7 +186,7 @@ class histogram(Plot):
 		# bins		: integer or array_like, optional
 		def auto(self, a, label = [], outfile = "output.pdf", xlabel = "", ylabel = "",  title = "", legend="inside", density=False, bins = 10):
 			plt.hist(a, label=label, bins=bins, density=density)#, bins=[0, 1, 2, 3])
-			self.legend(xlabel, ylabel, title)
+			self.legend(xlabel, ylabel, title, legend)
 			self.tofile(outfile)
 			#plt.savefig(outfile, bbox_inches='tight')
 
