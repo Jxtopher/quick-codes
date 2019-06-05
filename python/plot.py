@@ -19,7 +19,6 @@ import matplotlib.pyplot as plt
 
 class Plot:
 	def __init__(self, width, height, margins):
-		print ("Plot")
 		#fig = plt.figure(figsize=(5, 5))
 		fig, ax = plt.subplots(figsize=(width, height))
 		ax.margins(margins)
