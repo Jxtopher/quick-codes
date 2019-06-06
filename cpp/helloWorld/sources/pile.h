@@ -12,7 +12,6 @@
 #define JXTOPHER_PILE_H
 
 #include <cstdlib>
-#include <cassert>
 #include <iostream>
 
 #include "macro.h"
