@@ -2,7 +2,9 @@
 /// \file addrPointerToString.cpp
 /// \author htonivi
 /// \date Mar 10, 2009 at 3:35am
-/// \brief http://www.cplusplus.com/forum/general/8597/
+/// \brief addr pointer to string
+///        string to addr pointer
+///        http://www.cplusplus.com/forum/general/8597/
 ///
 /// @compilation g++ -std=c++1z -Wall -Os  main.cpp -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-include-dirs -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-null-sentinel -Wstrict-overflow=5 -Wswitch-default -Wundef -Werror -Wno-unused
 ///
