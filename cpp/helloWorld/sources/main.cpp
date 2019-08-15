@@ -5,7 +5,7 @@
 /// @copyright *
 /// @date *
 /// @brief Hello world for a simple exemple code
-/// \details *
+/// @details *
 ///
 /// @compilation *
 /// @execution *
