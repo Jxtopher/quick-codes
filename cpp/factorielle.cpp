@@ -1,9 +1,9 @@
 ///
-/// \file factorielle.cpp
-/// \author Jxtopher
-/// \version 1
-/// \date 2018
-/// \brief Factorial
+/// @file factorielle.cpp
+/// @author Jxtopher
+/// @version 1
+/// @date 2018
+/// @brief Factorial
 /// 	   https://oeis.org/A000142
 ///
 

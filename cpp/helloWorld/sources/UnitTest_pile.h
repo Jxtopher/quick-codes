@@ -1,9 +1,9 @@
 ///
-/// \file UnitTest_pile.h
-/// \author *
-/// \version *
-/// \date *
-/// \brief Unit testing
+/// @file UnitTest_pile.h
+/// @author *
+/// @version *
+/// @date *
+/// @brief Unit testing
 ///
 
 #ifndef JXTOPHER_UNITTEST_PILE_H

@@ -1,9 +1,9 @@
 ///
-/// \file main.h
-/// \author jxtopher
-/// \version 1
-/// \date 2019-03
-/// \brief Function stopwatch
+/// @file main.h
+/// @author jxtopher
+/// @version 1
+/// @date 2019-03
+/// @brief Function stopwatch
 ///
 
 #ifndef JXTOPHER_STOPWATCH_H

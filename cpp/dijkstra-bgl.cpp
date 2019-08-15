@@ -1,9 +1,9 @@
 ///
-/// \file dijkstra-bgl.h
-/// \author Jxtopher
-/// \version 1
-/// \date 2019
-/// \brief Implementation dijkstra with Boost Graph Library
+/// @file dijkstra-bgl.h
+/// @author Jxtopher
+/// @version 1
+/// @date 2019
+/// @brief Implementation dijkstra with Boost Graph Library
 /// \details BGL : https://www.boost.org/doc/libs/1_46_1/libs/graph/doc/adjacency_list.html
 ///          Dijkstra :https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra
 ///
@@ -24,7 +24,7 @@ using namespace boost;
 //-----------------------------------------------------------------------------
 
 ///
-/// \brief Définition du type pour les noeuds graphe
+/// @brief Définition du type pour les noeuds graphe
 ///
 struct VertexProperties {
     float d;
@@ -34,7 +34,7 @@ struct VertexProperties {
 };
 
 ///
-/// \brief Définition du type pour les liens graphe
+/// @brief Définition du type pour les liens graphe
 ///
 struct EdgeProperties {
     int weight;
@@ -51,7 +51,7 @@ std::size_t const EdgeInfoPropertyTag::num = (std::size_t)&EdgeInfoPropertyTag::
 typedef property<EdgeInfoPropertyTag, EdgeProperties> edge_info_prop_type;
 
 ///
-/// \brief Type de graphe
+/// @brief Type de graphe
 ///
 typedef adjacency_list<
     boost::vecS, boost::vecS, boost::undirectedS,
@@ -92,7 +92,7 @@ void test(Graph &g) {
 // dijkstra
 //-----------------------------------------------------------------------------
 ///
-/// \brief Crée une instance de graphe
+/// @brief Crée une instance de graphe
 ///
 /// \param g : graphe
 ///
@@ -115,7 +115,7 @@ void createInstanceGraph(Graph &g) {
 }
 
 ///
-/// \brief donne le plus petit élément de la liste l
+/// @brief donne le plus petit élément de la liste l
 ///
 /// \param g : graphe
 /// \param l : liste de noeud
@@ -129,7 +129,7 @@ unsigned int extrait_min(Graph const &g, list<unsigned int> &l) {
 }
 
 ///
-/// \brief *
+/// @brief *
 ///
 /// \param u : *
 /// \param v : *
@@ -145,7 +145,7 @@ void relacher(Graph &g, unsigned int u, unsigned int v) {
 }
 
 ///
-/// \brief algo de dijkstra
+/// @brief algo de dijkstra
 ///
 /// \param g : graphe
 ///

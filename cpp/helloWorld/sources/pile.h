@@ -1,9 +1,9 @@
 ///
-/// \file pile.h
-/// \author *
-/// \version *
-/// \date *
-/// \brief Définir une classe Pile avec les fonction push, pop, isEmpty, size
+/// @file pile.h
+/// @author *
+/// @version *
+/// @date *
+/// @brief Définir une classe Pile avec les fonction push, pop, isEmpty, size
 ///        Mettre en place une gestion dynamique de la mémoire
 ///        Définir les constructeurs de copie et l'opérateur égale
 ///
@@ -23,7 +23,7 @@ namespace jxtopher {
 template<class TYPE>
 ///
 /// \class Pile
-/// \brief Définition de la structure pile
+/// @brief Définition de la structure pile
 ///
 class Pile {
     public:
@@ -72,7 +72,7 @@ class Pile {
     }
 
     ///
-    /// \brief Comparer deux piles
+    /// @brief Comparer deux piles
     ///
     ///  Méthode qui permet de comparer deux piles
     ///

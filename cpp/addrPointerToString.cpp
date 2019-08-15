@@ -1,8 +1,8 @@
 ///
-/// \file addrPointerToString.cpp
-/// \author htonivi
-/// \date Mar 10, 2009 at 3:35am
-/// \brief addr pointer to string
+/// @file addrPointerToString.cpp
+/// @author htonivi
+/// @date Mar 10, 2009 at 3:35am
+/// @brief addr pointer to string
 ///        string to addr pointer
 ///        http://www.cplusplus.com/forum/general/8597/
 ///

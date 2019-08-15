@@ -1,8 +1,8 @@
 ///
-/// \file hexpatch.cpp
-/// \author *
-/// \date Sat May  1 20:15:15 2010
-/// \brief Hello world for a simple exemple code
+/// @file hexpatch.cpp
+/// @author *
+/// @date Sat May  1 20:15:15 2010
+/// @brief Hello world for a simple exemple code
 ///
 /// @compilation g++ hexpatch.cpp -o hexpatch
 /// @execution *

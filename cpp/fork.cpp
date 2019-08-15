@@ -1,9 +1,9 @@
 ///
-/// \file fork.cpp
-/// \author Jxtopher
-/// \version 1 bêta
-/// \date 27 Jan 2019
-/// \brief *
+/// @file fork.cpp
+/// @author Jxtopher
+/// @version 1 bêta
+/// @date 27 Jan 2019
+/// @brief *
 ///
 
 #ifndef LAUNCHERFORK_H

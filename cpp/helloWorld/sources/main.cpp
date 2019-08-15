@@ -1,10 +1,10 @@
 ///
-/// \file main.h
-/// \author *
-/// \version *
-/// \copyright *
-/// \date *
-/// \brief Hello world for a simple exemple code
+/// @file main.h
+/// @author *
+/// @version *
+/// @copyright *
+/// @date *
+/// @brief Hello world for a simple exemple code
 /// \details *
 ///
 /// @compilation *
