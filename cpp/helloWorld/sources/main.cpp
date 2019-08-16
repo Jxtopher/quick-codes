@@ -1,14 +1,14 @@
 ///
-/// @file main.h
+/// @file main.cpp
 /// @author *
 /// @version *
 /// @copyright *
 /// @date *
 /// @brief Hello world for a simple exemple code
-/// \details *
+/// @details *
 ///
-/// @compilation *
-/// @execution *
+/// -compilation *
+/// -execution *
 ///
 
 #include <iostream>
