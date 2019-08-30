@@ -51,7 +51,7 @@ class Pile {
     Pile & operator=(const Pile  &p) {
         if (nbElementMax != p.nbElementMax) {
             TYPE *data_new = static_cast<TYPE *>( realloc (data, p.nbElementMax * sizeof(TYPE)));
-            data_new == nullptr ? throw runtime_error(std::string{} + __FILE__ + ":" + std::to_string(__LINE__) + " ptr is null") : data = data_new;
+            data_new == nullptr ? throw std::runtime_error(std::string{} + __FILE__ + ":" + std::to_string(__LINE__) + " ptr is null") : data = data_new;
         }
        
         nbElementMax = p.nbElementMax;
@@ -90,7 +90,7 @@ class Pile {
         if (nbElement == nbElementMax) {
             nbElementMax += 10;
             TYPE *data_new = static_cast<TYPE *>( realloc (data, nbElementMax * sizeof(TYPE)));
-            data_new == nullptr ? throw runtime_error(std::string{} + __FILE__ + ":" + std::to_string(__LINE__) + " ptr is null") : data = data_new;
+            data_new == nullptr ? throw std::runtime_error(std::string{} + __FILE__ + ":" + std::to_string(__LINE__) + " ptr is null") : data = data_new;
             data[nbElement] = element;
             nbElement++;
         } else {
@@ -107,7 +107,7 @@ class Pile {
             // Liberation de la mémoire
             nbElementMax -= 10;
             TYPE *data_new = static_cast<TYPE *>( realloc (data, nbElementMax * sizeof(TYPE)));
-            data_new == nullptr ? throw runtime_error(std::string{} + __FILE__ + ":" + std::to_string(__LINE__) + " ptr is null") : data = data_new;
+            data_new == nullptr ? throw std::runtime_error(std::string{} + __FILE__ + ":" + std::to_string(__LINE__) + " ptr is null") : data = data_new;
         }
         nbElement--;
         return data[nbElement];
