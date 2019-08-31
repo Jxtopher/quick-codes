@@ -42,7 +42,7 @@ class Plot:
 		if title != "":
 			plt.title(title)
 
-		plt.grid(True)
+		plt.grid(True, linestyle='--', linewidth=0.1, alpha=0.7)
 
 		if legend == "inside":
 			plt.legend(loc="best",prop={'size':size})
