@@ -26,7 +26,7 @@ class Plot:
 		# Colors, markers and lines
 		self.lines = ["-"]#,"--","-.",":"]
 		self.markers = ["o", "v", "^", "^", ">", "1", "2", "3", "4", "8", "s", "p", "*", "h", "H", "+", "<", "D"]
-		self.colors = ["black", "blue", "green", "red", "brown", "magenta", "silver", "pink"]
+		self.colors = ["xkcd:black", "xkcd:blue", "xkcd:green", "xkcd:red", "xkcd:brown", "xkcd:magenta", "xkcd:silver", "xkcd:pink"]
 		self.linecycler = cycle(self.lines)
 		self.markercycler = cycle(self.markers)
 		self.colorcycler = cycle(self.colors)
