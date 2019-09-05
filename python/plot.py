@@ -86,8 +86,8 @@ class Boxplot(Plot):
 		#toCSV(data, xticks, outfile +".csv")
 
 class Linesplot(Plot):
-	def __init__(self):
-		Plot.__init__(self, 5, 5, 0.05)
+	def __init__(self, width = 5, height = 5, margins = 0.05):
+		Plot.__init__(self, width, height, margins)
 		print ("Linesplot")
 		self.datax = []
 		self.datay = []
