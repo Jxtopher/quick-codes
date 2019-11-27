@@ -1,5 +1,5 @@
 /// 
-/// @file Binary_search_algorithm.cpp
+/// @file binary_search_algorithm.cpp
 /// @author Jxtopher
 /// @brief https://en.wikipedia.org/wiki/Binary_search_algorithm
 /// @version 0.1
