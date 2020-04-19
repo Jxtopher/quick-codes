@@ -3,7 +3,7 @@
 /// @author Jxtopher
 /// @version 1
 /// @date 2019
-/// @brief *
+/// @brief see : https://fr.wikipedia.org/wiki/Arrangement_avec_r%C3%A9p%C3%A9tition
 ///
 
 #ifndef JXTOPHER_COMBINATIONGENERATOR_H
