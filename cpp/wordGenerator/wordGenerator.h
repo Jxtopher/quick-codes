@@ -18,12 +18,12 @@ namespace jxtopher {
 class WordGenerator {
 	public:
 
-	void operator()(const unsigned char *c, unsigned int len_word, void (*f)(unsigned char *, int)) {
+	void operator()(const unsigned char *c, unsigned int len_word, void (*f)(unsigned char *, unsigned int)) {
 		unsigned int lenC = 0;
-		unsigned int *word = new unsigned int[len_word];//malloc((len_word) * sizeof(unsigned int));
-		unsigned char *string = new unsigned char[len_word + 1];//malloc((len_word + 1) * sizeof(unsigned int));
+		unsigned int *word = new unsigned int[len_word];
+		unsigned char *string = new unsigned char[len_word + 1];
 		bool overflow = false;
-		int i, j;
+		unsigned int i, j;
 
 		// Nomber of length c
 		while (c[lenC] != 0) lenC++;
@@ -40,7 +40,9 @@ class WordGenerator {
 				do {
 					word[i] = 0;
 
-					if (--i < 0) {
+					if (i > 0) {
+						i--;
+					} else {
 						overflow = true;
 						break;
 					}
@@ -55,18 +57,16 @@ class WordGenerator {
 			for (j = 0 ; j < len_word; j++)
 				string[j] = c[word[j]];
 
-			f(string, 5);
-
+			f(string, len_word);
 		}
 
 		delete [] word;
 		delete [] string;
 	}
 
-	static void f(unsigned char *string, int size) {
+	static void f(unsigned char *string, unsigned int size) {
 		printf("%s\n", string);
 	}
-
 
 	const unsigned char alphabet_tiny_uppercase_numeric[64] = 
 		{'a','b','c','d','e','f','g','h','i','j','k','l','m',
@@ -87,6 +87,7 @@ class WordGenerator {
 		{'A','B','C','D','E','F','G','H','I','J','K','L','M',
 		'N','O','P','Q','R','S','T','U','V','W','X','Y','Z', 0};
 
+	const unsigned char binary[3] = {'0', '1', 0};
 };
 
 }

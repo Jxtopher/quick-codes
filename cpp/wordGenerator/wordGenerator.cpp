@@ -16,7 +16,7 @@ int main() {
 	// c: The characters composing the word
 	// len_word: Word size
 	// f: Function applying word processing
-	wordGenerator(wordGenerator.alphabet_tiny_uppercase_numeric, 5, jxtopher::WordGenerator::f);
+	wordGenerator(wordGenerator.binary, 4, jxtopher::WordGenerator::f);
 
 	return EXIT_SUCCESS;
 }
