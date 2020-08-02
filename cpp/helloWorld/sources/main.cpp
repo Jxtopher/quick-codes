@@ -11,37 +11,34 @@
 /// -execution *
 ///
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
+#include <string>
 
 #include "macro.h"
 
-using namespace std;
+void version(const std::string& name_software, const std::string& num_version);
 
-void version(string name_software, string num_version);
-
-void version(string name_software, string num_version) {
-	std::cout<<"*************************************"<<std::endl;
-	std::cout<<"[+] *** "<<name_software<<" ***"<<std::endl;
-	std::cout<<"[+] Day compilation : "<<__DATE__<<" "<<__TIME__<<std::endl;
-	std::cout<<"[+] Version : "<<num_version<<std::endl;
-	std::cout<<"*************************************"<<std::endl;
+void version(const std::string& name_software, const std::string& num_version) {
+	std::cout << "*************************************" << std::endl;
+	std::cout << "[+] *** " << name_software << " ***" << std::endl;
+	std::cout << "[+] Day compilation : " << __DATE__ << " " << __TIME__ << std::endl;
+	std::cout << "[+] Version : " << num_version << std::endl;
+	std::cout << "*************************************" << std::endl;
 }
 
-//int main(int argc, char **argv) {
+// int main(int argc, char **argv) {
 int main() {
 	DEBUG_TRACE("Start of the program")
 
 	version("Hello World !", "1");
-	
-	for (int i =  0 ; i < 5 ; i++) {
+
+	for(int i = 0; i < 5; i++) {
 		DEBUG_VAR(i)
-		cout<<"Hello World!"<<endl;
+		std::cout << "Hello World!" <<std::endl;
 	}
 
-	if (0 == -1) {
-		THROW("Error of variable i")
-	} 
+	if(0 == -1) { THROW("Error of variable i") }
 
 	DEBUG_TRACE("Stop program")
 	return EXIT_SUCCESS;

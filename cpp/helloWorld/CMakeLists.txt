@@ -13,7 +13,7 @@ project(helloworld)
 set(CMAKE_BUILD_TYPE Release)
 #set(CMAKE_BUILD_TYPE Debug)
 
-set(CMAKE_CXX_FLAGS "-std=c++17 -pedantic -Wall -Wextra -Wcast-align -Wctor-dtor-privacy    \
+set(CMAKE_CXX_FLAGS "-std=c++2a -pedantic -Wall -Wextra -Wcast-align -Wctor-dtor-privacy    \
                                 -Wdisabled-optimization -Wformat=2 -Winit-self -Wlogical-op \
                                 -Wmissing-declarations -Wmissing-include-dirs -Wnoexcept    \
                                 -Woverloaded-virtual -Wredundant-decls  -Wsign-promo        \
@@ -22,26 +22,14 @@ set(CMAKE_CXX_FLAGS "-std=c++17 -pedantic -Wall -Wextra -Wcast-align -Wctor-dtor
 set(CMAKE_CXX_FLAGS_DEBUG "-g3 -DDEBUG")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
-
-# Doxygen
-find_package(Doxygen)
-if (DOXYGEN_FOUND)
-    configure_file(Doxyfile.in Doxyfile)
-
-    set(DOXYGEN_INPUT ${CMAKE_BINARY_DIR}/Doxyfile)
-    set(DOXYGEN_OUTPUT ${APIDOC_DIR}/html/index.html)
-
-    add_custom_target(doc ALL
-    COMMAND ${CMAKE_COMMAND} -E echo_append "Building API Documentation..."
-    COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_INPUT} > /dev/null
-    COMMAND ${CMAKE_COMMAND} -E echo "Done."
-    )
-
-    install(DIRECTORY ${CMAKE_BINARY_DIR}/doc/html 
-        DESTINATION share/doc/${CMAKE_PROJECT_NAME})
-else (DOXYGEN_FOUND)
-    message("Doxygen need to be installed to generate the doxygen documentation")
-endif (DOXYGEN_FOUND)
+###############################################################################
+# Load modules cmake
+###############################################################################
+set (CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/.cmake")
+include(cppcheck)       #
+include(clang-format)   #
+include(version)        # Version name generator form git branch, hash
+include(doxygen)        # Create le documentation
 
 
 ## HelloWorld
