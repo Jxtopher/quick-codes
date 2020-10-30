@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Canvas: move bull</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="Jxtopher">
+</head>
+
+<body>
+    <canvas id="canvas" style="border: 1px solid black;"></canvas>
+
+    <script type="text/javascript">
+        class Canvas_handler {
+            constructor() {
+                this.canvas = document.getElementById('canvas');
+                this.ctx = canvas.getContext('2d');
+                canvas.width = 500;
+                canvas.height = 500;
+            }
+
+            clean() {
+                this.ctx.clearRect(0, 0, canvas.width, canvas.height);
+            }
+
+            get_context() {
+                return this.ctx
+            }
+        }
+
+        class Bull {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.size = 10
+            }
+
+            get_x() {
+                return this.x
+            }
+
+            get_y() {
+                return this.y
+            }
+
+            set_xy(x, y) {
+                this.x = x
+                this.y = y
+            }
+
+            draw() {
+                var canvas = document.getElementById('canvas');
+                var ctx = canvas.getContext('2d');
+
+                var ctx = canvas_handler.get_context()
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
+                ctx.fill();
+            }
+        }
+
+        function go() {
+            canvas_handler.clean()
+
+            bull.set_xy(bull.get_x(), (bull.get_y() + 1) % 350)
+            if (bull.get_y() == 0) { bull.set_xy(bull.get_x(), (50)) }
+
+            bull.draw()
+
+            window.requestAnimationFrame(go);
+        }
+
+        var bull = new Bull(250, 50)
+        var canvas_handler = new Canvas_handler()
+
+        go()
+
+    </script>
+</body>
+
+</html>
