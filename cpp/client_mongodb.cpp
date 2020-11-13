@@ -5,7 +5,7 @@
 /// @version 0.1
 /// @date 2019-08-23
 /// 
-/// /compilation g++ client_mongodb.cpp -pthread -lmongoclient  -lboost_filesystem -lboost_program_options -lboost_system -ljsoncpp
+/// @compilation g++ client_mongodb.cpp -pthread -lmongoclient  -lboost_filesystem -lboost_program_options -lboost_system -ljsoncpp
 /// 
 ///
 #include <cstdlib>
