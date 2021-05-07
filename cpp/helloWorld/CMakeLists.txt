@@ -41,9 +41,9 @@ pkg_check_modules(CPPUNIT cppunit)
 link_libraries(${CPPUNIT_LIBRARIES})
 
 ## HelloWorld unit test
-add_executable(${PROJECT_NAME}-unittest-${CMAKE_BUILD_TYPE} tests-unitaires/unitTest.cpp)
-target_include_directories(${PROJECT_NAME}-unittest-${CMAKE_BUILD_TYPE} PUBLIC sources/)
+add_executable(${PROJECT_NAME}-tests-${CMAKE_BUILD_TYPE} tests/tests.cpp)
+target_include_directories(${PROJECT_NAME}-tests-${CMAKE_BUILD_TYPE} PUBLIC sources/)
 
 ## Test unitaire
 enable_testing()
-add_test(NAME ${PROJECT_NAME}-unittest-${CMAKE_BUILD_TYPE} COMMAND "${PROJECT_NAME}-unittest-${CMAKE_BUILD_TYPE}")
+add_test(NAME ${PROJECT_NAME}-tests-${CMAKE_BUILD_TYPE} COMMAND "${PROJECT_NAME}-tests-${CMAKE_BUILD_TYPE}")

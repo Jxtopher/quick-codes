@@ -19,7 +19,7 @@
 #include <cppunit/ui/text/TextTestRunner.h>
 #include <netinet/in.h>
 
-#include "UnitTest_Pile.hpp"
+#include "pile.test.hpp"
 
 CPPUNIT_TEST_SUITE_REGISTRATION(UnitTest_pile);
 
